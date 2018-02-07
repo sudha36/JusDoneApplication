@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [JusDone Application TestSuite]">
+  <listeners>
+    <listener class-name="com.justdone.qa.extentreports.ExtentReporterNG"/>
+  </listeners>
+  <test name="RegistrationPageTest(failed)">
+    <classes>
+      <class name="com.jusdone.qa.testcases.RegistrationPageTest">
+        <methods>
+          <include name="VerifyValidInputs" invocation-numbers="0"/>
+          <include name="setup"/>
+          <include name="VerifySignInBtnTest"/>
+          <include name="ClickSignInBtnTest"/>
+        </methods>
+      </class> <!-- com.jusdone.qa.testcases.RegistrationPageTest -->
+    </classes>
+  </test> <!-- RegistrationPageTest(failed) -->
+  <test name="LoginpageTest(failed)">
+    <classes>
+      <class name="com.jusdone.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="verifyRememberMeTest"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.jusdone.qa.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- LoginpageTest(failed) -->
+  <test name="DashBoardTest(failed)">
+    <classes>
+      <class name="com.jusdone.qa.testcases.DashBoardTest">
+        <methods>
+          <include name="ClickCreateNewTaskLinkTest"/>
+          <include name="TearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.jusdone.qa.testcases.DashBoardTest -->
+    </classes>
+  </test> <!-- DashBoardTest(failed) -->
+</suite> <!-- Failed suite [JusDone Application TestSuite] -->

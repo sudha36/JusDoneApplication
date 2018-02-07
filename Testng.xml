@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name= "JusDone Application TestSuite">
+
+<listeners>
+		<listener class-name= "com.justdone.qa.extentreports.ExtentReporterNG" />
+	</listeners>
+
+<test name="LandingpageTest" >
+  <classes>
+   <class name="com.jusdone.qa.testcases.LandingPageTest" />  
+  </classes>
+ </test>
+  
+ <test name="RegistrationPageTest" >
+  <classes>
+   <class name="com.jusdone.qa.testcases.RegistrationPageTest" /> 
+  </classes>
+ </test> 
+	
+
+ <test name="LoginpageTest" >
+  <classes>
+   <class name="com.jusdone.qa.testcases.LoginPageTest"/> 
+  </classes>
+ </test> 
+	
+	
+ <test name="DashBoardTest" >
+  <classes>
+   <class name="com.jusdone.qa.testcases.DashBoardTest"/> 
+  </classes>
+ </test>
+ 
+ <test name="TaskPageTest" >
+  <classes>
+   <class name="com.jusdone.qa.testcases.TaskPageTest"/> 
+  </classes>
+ </test>
+
+	
+</suite>

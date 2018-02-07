@@ -1,0 +1,10 @@
+com\jusdone\qa\pages\LoginPage.class
+com\jusdone\qa\pages\LandingPage.class
+com\jusdone\qa\pages\DashBoardPage.class
+com\jusdone\qa\pages\RegistrationPage.class
+com\jusdone\qa\pages\ErrorPage.class
+com\jusdone\qa\utilities\BrowserAlertHelper.class
+com\justdone\qa\extentreports\ExtentReporterNG.class
+com\jusdone\qa\pages\TaskPage.class
+com\jusdone\qa\utilities\Testutil.class
+com\jusdone\qa\testbase\Testbase.class

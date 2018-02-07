@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="58975" started-at="2018-02-06T18:07:13Z" finished-at="2018-02-06T18:08:12Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="58975" started-at="2018-02-06T18:07:13Z" finished-at="2018-02-06T18:08:12Z">
+      <class name="com.jusdone.qa.testcases.LandingPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.LandingPageTest@370736d9]" name="setup" is-config="true" duration-ms="7127" started-at="2018-02-06T12:07:13Z" finished-at="2018-02-06T12:07:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Landingpagetitletest()[pri:1, instance:com.jusdone.qa.testcases.LandingPageTest@370736d9]" name="Landingpagetitletest" duration-ms="46" started-at="2018-02-06T12:07:20Z" finished-at="2018-02-06T12:07:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Landingpagetitletest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.jusdone.qa.testcases.LandingPageTest@370736d9]" name="teardown" is-config="true" duration-ms="800" started-at="2018-02-06T12:07:20Z" finished-at="2018-02-06T12:07:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.LandingPageTest@370736d9]" name="setup" is-config="true" duration-ms="5948" started-at="2018-02-06T12:07:21Z" finished-at="2018-02-06T12:07:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="SignUpLogoTest()[pri:2, instance:com.jusdone.qa.testcases.LandingPageTest@370736d9]" name="SignUpLogoTest" duration-ms="110" started-at="2018-02-06T12:07:27Z" finished-at="2018-02-06T12:07:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUpLogoTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.jusdone.qa.testcases.LandingPageTest@370736d9]" name="teardown" is-config="true" duration-ms="797" started-at="2018-02-06T12:07:27Z" finished-at="2018-02-06T12:07:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.LandingPageTest@370736d9]" name="setup" is-config="true" duration-ms="6253" started-at="2018-02-06T12:07:28Z" finished-at="2018-02-06T12:07:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="LoginLogoTest()[pri:3, instance:com.jusdone.qa.testcases.LandingPageTest@370736d9]" name="LoginLogoTest" duration-ms="79" started-at="2018-02-06T12:07:34Z" finished-at="2018-02-06T12:07:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginLogoTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.jusdone.qa.testcases.LandingPageTest@370736d9]" name="teardown" is-config="true" duration-ms="805" started-at="2018-02-06T12:07:34Z" finished-at="2018-02-06T12:07:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.LandingPageTest@370736d9]" name="setup" is-config="true" duration-ms="5571" started-at="2018-02-06T12:07:35Z" finished-at="2018-02-06T12:07:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="AboutusLogoTest()[pri:4, instance:com.jusdone.qa.testcases.LandingPageTest@370736d9]" name="AboutusLogoTest" duration-ms="70" started-at="2018-02-06T12:07:40Z" finished-at="2018-02-06T12:07:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AboutusLogoTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.jusdone.qa.testcases.LandingPageTest@370736d9]" name="teardown" is-config="true" duration-ms="783" started-at="2018-02-06T12:07:40Z" finished-at="2018-02-06T12:07:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.LandingPageTest@370736d9]" name="setup" is-config="true" duration-ms="5843" started-at="2018-02-06T12:07:41Z" finished-at="2018-02-06T12:07:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ContactusLogoTest()[pri:5, instance:com.jusdone.qa.testcases.LandingPageTest@370736d9]" name="ContactusLogoTest" duration-ms="75" started-at="2018-02-06T12:07:47Z" finished-at="2018-02-06T12:07:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactusLogoTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.jusdone.qa.testcases.LandingPageTest@370736d9]" name="teardown" is-config="true" duration-ms="789" started-at="2018-02-06T12:07:47Z" finished-at="2018-02-06T12:07:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.LandingPageTest@370736d9]" name="setup" is-config="true" duration-ms="5833" started-at="2018-02-06T12:07:48Z" finished-at="2018-02-06T12:07:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ClickbtnTest()[pri:6, instance:com.jusdone.qa.testcases.LandingPageTest@370736d9]" name="ClickbtnTest" duration-ms="3555" started-at="2018-02-06T12:07:54Z" finished-at="2018-02-06T12:07:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickbtnTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.jusdone.qa.testcases.LandingPageTest@370736d9]" name="teardown" is-config="true" duration-ms="829" started-at="2018-02-06T12:07:57Z" finished-at="2018-02-06T12:07:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.LandingPageTest@370736d9]" name="setup" is-config="true" duration-ms="5664" started-at="2018-02-06T12:07:58Z" finished-at="2018-02-06T12:08:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Clickbtn1Test()[pri:7, instance:com.jusdone.qa.testcases.LandingPageTest@370736d9]" name="Clickbtn1Test" duration-ms="7089" started-at="2018-02-06T12:08:04Z" finished-at="2018-02-06T12:08:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Clickbtn1Test -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.jusdone.qa.testcases.LandingPageTest@370736d9]" name="teardown" is-config="true" duration-ms="855" started-at="2018-02-06T12:08:11Z" finished-at="2018-02-06T12:08:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.jusdone.qa.testcases.LandingPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

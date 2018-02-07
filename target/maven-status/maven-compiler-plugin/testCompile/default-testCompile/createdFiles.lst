@@ -1,0 +1,5 @@
+com\jusdone\qa\testcases\LandingPageTest.class
+com\jusdone\qa\testcases\RegistrationPageTest.class
+com\jusdone\qa\testcases\TaskPageTest.class
+com\jusdone\qa\testcases\LoginPageTest.class
+com\jusdone\qa\testcases\DashBoardTest.class
