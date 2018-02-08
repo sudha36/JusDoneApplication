@@ -63,7 +63,7 @@ public  Object[][] validFields(){
 }
 
 
-@Test(priority=3, dataProvider="validFields")
+@Test(priority=3, dataProvider="validFields",enabled = false)
 public void VerifyValidInputs(String Name,  String Email, String Pwd, String ConfirmPwd) {
 	registrationPage.VerifyValidInputs(Name, Email, Pwd, ConfirmPwd);
 	try {
