@@ -61,7 +61,7 @@ public class LoginPageTest extends Testbase {
 	Assert.assertTrue(loginPage.verifyCtrAnAcct());
 	}
 	
-	@Test(priority =5)
+	@Test(priority =5, enabled = false)
 	public void   verifyRememberMeTest() {
 	Assert.assertTrue(loginPage.verifyRememberMe());
 	}
