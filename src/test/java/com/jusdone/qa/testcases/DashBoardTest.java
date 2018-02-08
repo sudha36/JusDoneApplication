@@ -106,7 +106,7 @@ public void EnteringTeamInputsTest() {
 	dashBoardPage.EnteringTeamInputs("Pirates", "Five", "anyAut","anyAut.com");
 	
 	}
-@Test(priority=14, enabled=false)
+@Test(priority=14)
 public void CreateNewTaskLinkTest() {
 	Assert.assertTrue(dashBoardPage.verifyCreateNewTaskLink());
 	
@@ -118,7 +118,7 @@ public void ClickTaskTabTest() {
 }
 
 
-@Test(priority=16)
+@Test(priority=16, enabled=false)
 public void ClickCreateNewTaskLinkTest() {
 	dashBoardPage.ClickCreateNewTaskLink();
 	
