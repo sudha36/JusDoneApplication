@@ -9,19 +9,17 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-
 import com.jusdone.qa.utilities.Testutil;
 
 public class Testbase {
-	
+
 	public static WebDriver driver;
 	public static Properties prop;
 	
+
+	public Testbase() {
 	
-	public Testbase(){
-		
-	
-	try {
+		try {
 			prop = new Properties();
 		//FileInputStream ip = new FileInputStream("C:\\Users\\Murali\\Desktop\\selenium\\JusDoneTest\\src\\main\\java\\com\\jusdonge\\qa\\config");
 		FileInputStream ip = new FileInputStream(System.getProperty("user.dir")+ "/src/main/java/com/jusdonge/qa/config/config.properties");

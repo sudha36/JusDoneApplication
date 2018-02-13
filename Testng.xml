@@ -1,42 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name= "JusDone Application TestSuite">
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="GRID SAMPLE TEST">
 
 <listeners>
-		<listener class-name= "com.justdone.qa.extentreports.ExtentReporterNG" />
+		<listener class-name="com.justdone.qa.extentreports.ExtentReporterNG" />
 	</listeners>
+	
+    <test name="LandingPage">
 
-<test name="LandingpageTest" >
-  <classes>
-   <class name="com.jusdone.qa.testcases.LandingPageTest" />  
-  </classes>
- </test>
-  
- <test name="RegistrationPageTest" >
-  <classes>
-   <class name="com.jusdone.qa.testcases.RegistrationPageTest" /> 
-  </classes>
- </test> 
-	
+      <classes>
 
- <test name="LoginpageTest" >
-  <classes>
-   <class name="com.jusdone.qa.testcases.LoginPageTest"/> 
-  </classes>
- </test> 
-	
-	
- <test name="DashBoardTest" >
-  <classes>
-   <class name="com.jusdone.qa.testcases.DashBoardTest"/> 
-  </classes>
- </test>
+            <class name ="com.jusdone.qa.testcases.LandingPageTest"/>
+
+       </classes>
+
+    </test>
+    
+    <test name="Login">
+
+   
+        <classes>
+
+            <class name ="com.jusdone.qa.testcases.LoginPageTest"/>
+
+       </classes>
+
+    </test>
+    
+    <test name="RegistrationPage">
+
+   
+        <classes>
+
+            <class name ="com.jusdone.qa.testcases.RegistrationPageTest"/>
+
+       </classes>
+
+    </test>
  
- <test name="TaskPageTest" >
-  <classes>
-   <class name="com.jusdone.qa.testcases.TaskPageTest"/> 
-  </classes>
- </test>
+ <test name="DashBoardPage">
 
-	
+   
+        <classes>
+
+            <class name ="com.jusdone.qa.testcases.DashBoardTest"/>
+
+       </classes>
+
+    </test>
+    
+    <test name="TaskPage">
+
+   
+        <classes>
+
+            <class name ="com.jusdone.qa.testcases.TaskPageTest"/>
+
+       </classes>
+
+    </test>
+    
+    
 </suite>
+	

@@ -1,6 +1,7 @@
 package com.jusdone.qa.testcases;
 
 import java.io.IOException;
+import java.net.MalformedURLException;
 
 import org.apache.log4j.Logger;
 import org.testng.Assert;
@@ -22,7 +23,7 @@ public class LandingPageTest extends Testbase{
 	 RegistrationPage  registrationPage;
 	 LoginPage loginPage;
 	 Testutil testUtil;
-	 Logger log = Logger.getLogger(LandingPageTest.class);
+	Logger log = Logger.getLogger(LandingPageTest.class);
 	 
 	
 	public LandingPageTest() {
@@ -30,7 +31,7 @@ public class LandingPageTest extends Testbase{
 		
 	}
 @BeforeMethod
-public void setup() {
+public void setup()  {
 	log.info("****************************** Starting test cases execution  *****************************************");
 	 initialization();
 	 landingpage = new  LandingPage();

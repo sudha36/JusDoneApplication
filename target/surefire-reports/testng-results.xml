@@ -1,247 +1,205 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="3" ignored="0" total="44" passed="41">
+<testng-results skipped="0" failed="0" ignored="4" total="44" passed="40">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="698796" started-at="2018-02-07T00:04:38Z" finished-at="2018-02-07T00:16:17Z">
+  <suite name="GRID SAMPLE TEST" duration-ms="535112" started-at="2018-02-13T17:47:02Z" finished-at="2018-02-13T17:55:57Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="698796" started-at="2018-02-07T00:04:38Z" finished-at="2018-02-07T00:16:17Z">
+    <test name="LandingPage" duration-ms="63349" started-at="2018-02-13T17:47:02Z" finished-at="2018-02-13T17:48:06Z">
       <class name="com.jusdone.qa.testcases.LandingPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.LandingPageTest@4f933fd1]" name="setup" is-config="true" duration-ms="7199" started-at="2018-02-06T18:05:04Z" finished-at="2018-02-06T18:05:12Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.LandingPageTest@2a5ca609]" name="setup" is-config="true" duration-ms="7623" started-at="2018-02-13T11:47:02Z" finished-at="2018-02-13T11:47:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="Landingpagetitletest()[pri:1, instance:com.jusdone.qa.testcases.LandingPageTest@4f933fd1]" name="Landingpagetitletest" duration-ms="72" started-at="2018-02-06T18:05:12Z" finished-at="2018-02-06T18:05:12Z">
+        <test-method status="PASS" signature="Landingpagetitletest()[pri:1, instance:com.jusdone.qa.testcases.LandingPageTest@2a5ca609]" name="Landingpagetitletest" duration-ms="51" started-at="2018-02-13T11:47:10Z" finished-at="2018-02-13T11:47:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Landingpagetitletest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.jusdone.qa.testcases.LandingPageTest@4f933fd1]" name="teardown" is-config="true" duration-ms="1057" started-at="2018-02-06T18:05:12Z" finished-at="2018-02-06T18:05:13Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.jusdone.qa.testcases.LandingPageTest@2a5ca609]" name="teardown" is-config="true" duration-ms="792" started-at="2018-02-13T11:47:10Z" finished-at="2018-02-13T11:47:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.LandingPageTest@4f933fd1]" name="setup" is-config="true" duration-ms="6908" started-at="2018-02-06T18:06:13Z" finished-at="2018-02-06T18:06:20Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.LandingPageTest@2a5ca609]" name="setup" is-config="true" duration-ms="6286" started-at="2018-02-13T11:47:11Z" finished-at="2018-02-13T11:47:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="SignUpLogoTest()[pri:2, instance:com.jusdone.qa.testcases.LandingPageTest@4f933fd1]" name="SignUpLogoTest" duration-ms="170" started-at="2018-02-06T18:06:20Z" finished-at="2018-02-06T18:06:20Z">
+        <test-method status="PASS" signature="SignUpLogoTest()[pri:2, instance:com.jusdone.qa.testcases.LandingPageTest@2a5ca609]" name="SignUpLogoTest" duration-ms="73" started-at="2018-02-13T11:47:17Z" finished-at="2018-02-13T11:47:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SignUpLogoTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.jusdone.qa.testcases.LandingPageTest@4f933fd1]" name="teardown" is-config="true" duration-ms="935" started-at="2018-02-06T18:06:20Z" finished-at="2018-02-06T18:06:21Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.jusdone.qa.testcases.LandingPageTest@2a5ca609]" name="teardown" is-config="true" duration-ms="839" started-at="2018-02-13T11:47:17Z" finished-at="2018-02-13T11:47:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.LandingPageTest@4f933fd1]" name="setup" is-config="true" duration-ms="6976" started-at="2018-02-06T18:07:17Z" finished-at="2018-02-06T18:07:24Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.LandingPageTest@2a5ca609]" name="setup" is-config="true" duration-ms="6301" started-at="2018-02-13T11:47:18Z" finished-at="2018-02-13T11:47:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="LoginLogoTest()[pri:3, instance:com.jusdone.qa.testcases.LandingPageTest@4f933fd1]" name="LoginLogoTest" duration-ms="147" started-at="2018-02-06T18:07:24Z" finished-at="2018-02-06T18:07:25Z">
+        <test-method status="PASS" signature="LoginLogoTest()[pri:3, instance:com.jusdone.qa.testcases.LandingPageTest@2a5ca609]" name="LoginLogoTest" duration-ms="92" started-at="2018-02-13T11:47:24Z" finished-at="2018-02-13T11:47:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginLogoTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.jusdone.qa.testcases.LandingPageTest@4f933fd1]" name="teardown" is-config="true" duration-ms="986" started-at="2018-02-06T18:07:25Z" finished-at="2018-02-06T18:07:26Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.jusdone.qa.testcases.LandingPageTest@2a5ca609]" name="teardown" is-config="true" duration-ms="793" started-at="2018-02-13T11:47:24Z" finished-at="2018-02-13T11:47:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.LandingPageTest@4f933fd1]" name="setup" is-config="true" duration-ms="6716" started-at="2018-02-06T18:08:54Z" finished-at="2018-02-06T18:09:00Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.LandingPageTest@2a5ca609]" name="setup" is-config="true" duration-ms="5803" started-at="2018-02-13T11:47:25Z" finished-at="2018-02-13T11:47:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="AboutusLogoTest()[pri:4, instance:com.jusdone.qa.testcases.LandingPageTest@4f933fd1]" name="AboutusLogoTest" duration-ms="188" started-at="2018-02-06T18:09:00Z" finished-at="2018-02-06T18:09:01Z">
+        <test-method status="PASS" signature="AboutusLogoTest()[pri:4, instance:com.jusdone.qa.testcases.LandingPageTest@2a5ca609]" name="AboutusLogoTest" duration-ms="107" started-at="2018-02-13T11:47:31Z" finished-at="2018-02-13T11:47:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AboutusLogoTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.jusdone.qa.testcases.LandingPageTest@4f933fd1]" name="teardown" is-config="true" duration-ms="992" started-at="2018-02-06T18:09:01Z" finished-at="2018-02-06T18:09:02Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.jusdone.qa.testcases.LandingPageTest@2a5ca609]" name="teardown" is-config="true" duration-ms="801" started-at="2018-02-13T11:47:31Z" finished-at="2018-02-13T11:47:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.LandingPageTest@4f933fd1]" name="setup" is-config="true" duration-ms="6855" started-at="2018-02-06T18:10:05Z" finished-at="2018-02-06T18:10:12Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.LandingPageTest@2a5ca609]" name="setup" is-config="true" duration-ms="7931" started-at="2018-02-13T11:47:32Z" finished-at="2018-02-13T11:47:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="ContactusLogoTest()[pri:5, instance:com.jusdone.qa.testcases.LandingPageTest@4f933fd1]" name="ContactusLogoTest" duration-ms="163" started-at="2018-02-06T18:10:12Z" finished-at="2018-02-06T18:10:12Z">
+        <test-method status="PASS" signature="ContactusLogoTest()[pri:5, instance:com.jusdone.qa.testcases.LandingPageTest@2a5ca609]" name="ContactusLogoTest" duration-ms="77" started-at="2018-02-13T11:47:40Z" finished-at="2018-02-13T11:47:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ContactusLogoTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.jusdone.qa.testcases.LandingPageTest@4f933fd1]" name="teardown" is-config="true" duration-ms="970" started-at="2018-02-06T18:10:12Z" finished-at="2018-02-06T18:10:13Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.jusdone.qa.testcases.LandingPageTest@2a5ca609]" name="teardown" is-config="true" duration-ms="797" started-at="2018-02-13T11:47:40Z" finished-at="2018-02-13T11:47:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.LandingPageTest@4f933fd1]" name="setup" is-config="true" duration-ms="6745" started-at="2018-02-06T18:11:13Z" finished-at="2018-02-06T18:11:20Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.LandingPageTest@2a5ca609]" name="setup" is-config="true" duration-ms="6117" started-at="2018-02-13T11:47:41Z" finished-at="2018-02-13T11:47:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="ClickbtnTest()[pri:6, instance:com.jusdone.qa.testcases.LandingPageTest@4f933fd1]" name="ClickbtnTest" duration-ms="4612" started-at="2018-02-06T18:11:20Z" finished-at="2018-02-06T18:11:24Z">
+        <test-method status="PASS" signature="ClickbtnTest()[pri:6, instance:com.jusdone.qa.testcases.LandingPageTest@2a5ca609]" name="ClickbtnTest" duration-ms="4006" started-at="2018-02-13T11:47:47Z" finished-at="2018-02-13T11:47:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickbtnTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.jusdone.qa.testcases.LandingPageTest@4f933fd1]" name="teardown" is-config="true" duration-ms="975" started-at="2018-02-06T18:11:24Z" finished-at="2018-02-06T18:11:25Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.jusdone.qa.testcases.LandingPageTest@2a5ca609]" name="teardown" is-config="true" duration-ms="839" started-at="2018-02-13T11:47:51Z" finished-at="2018-02-13T11:47:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.LandingPageTest@4f933fd1]" name="setup" is-config="true" duration-ms="6497" started-at="2018-02-06T18:12:20Z" finished-at="2018-02-06T18:12:26Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.LandingPageTest@2a5ca609]" name="setup" is-config="true" duration-ms="6232" started-at="2018-02-13T11:47:52Z" finished-at="2018-02-13T11:47:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="Clickbtn1Test()[pri:7, instance:com.jusdone.qa.testcases.LandingPageTest@4f933fd1]" name="Clickbtn1Test" duration-ms="8238" started-at="2018-02-06T18:12:26Z" finished-at="2018-02-06T18:12:34Z">
+        <test-method status="PASS" signature="Clickbtn1Test()[pri:7, instance:com.jusdone.qa.testcases.LandingPageTest@2a5ca609]" name="Clickbtn1Test" duration-ms="6935" started-at="2018-02-13T11:47:58Z" finished-at="2018-02-13T11:48:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Clickbtn1Test -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.jusdone.qa.testcases.LandingPageTest@4f933fd1]" name="teardown" is-config="true" duration-ms="950" started-at="2018-02-06T18:12:34Z" finished-at="2018-02-06T18:12:35Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.jusdone.qa.testcases.LandingPageTest@2a5ca609]" name="teardown" is-config="true" duration-ms="817" started-at="2018-02-13T11:48:05Z" finished-at="2018-02-13T11:48:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.jusdone.qa.testcases.LandingPageTest -->
-      <class name="com.jusdone.qa.testcases.RegistrationPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.RegistrationPageTest@1753acfe]" name="setup" is-config="true" duration-ms="10510" started-at="2018-02-06T18:05:23Z" finished-at="2018-02-06T18:05:34Z">
+    </test> <!-- LandingPage -->
+    <test name="Login" duration-ms="67089" started-at="2018-02-13T17:48:06Z" finished-at="2018-02-13T17:49:13Z">
+      <class name="com.jusdone.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.LoginPageTest@14acaea5]" name="setup" is-config="true" duration-ms="9004" started-at="2018-02-13T11:48:06Z" finished-at="2018-02-13T11:48:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyRegisterNameTest()[pri:1, instance:com.jusdone.qa.testcases.RegistrationPageTest@1753acfe]" name="verifyRegisterNameTest" duration-ms="323" started-at="2018-02-06T18:05:34Z" finished-at="2018-02-06T18:05:34Z">
+        <test-method status="PASS" signature="verifyLoginNameTest()[pri:1, instance:com.jusdone.qa.testcases.LoginPageTest@14acaea5]" name="verifyLoginNameTest" duration-ms="117" started-at="2018-02-13T11:48:15Z" finished-at="2018-02-13T11:48:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginNameTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.jusdone.qa.testcases.LoginPageTest@14acaea5]" name="teardown" is-config="true" duration-ms="870" started-at="2018-02-13T11:48:15Z" finished-at="2018-02-13T11:48:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.LoginPageTest@14acaea5]" name="setup" is-config="true" duration-ms="9080" started-at="2018-02-13T11:48:16Z" finished-at="2018-02-13T11:48:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyLoginBtnTest()[pri:2, instance:com.jusdone.qa.testcases.LoginPageTest@14acaea5]" name="verifyLoginBtnTest" duration-ms="103" started-at="2018-02-13T11:48:25Z" finished-at="2018-02-13T11:48:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginBtnTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.jusdone.qa.testcases.LoginPageTest@14acaea5]" name="teardown" is-config="true" duration-ms="811" started-at="2018-02-13T11:48:25Z" finished-at="2018-02-13T11:48:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.LoginPageTest@14acaea5]" name="setup" is-config="true" duration-ms="8015" started-at="2018-02-13T11:48:26Z" finished-at="2018-02-13T11:48:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyCtrAnAcctTest()[pri:4, instance:com.jusdone.qa.testcases.LoginPageTest@14acaea5]" name="verifyCtrAnAcctTest" duration-ms="139" started-at="2018-02-13T11:48:34Z" finished-at="2018-02-13T11:48:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCtrAnAcctTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.jusdone.qa.testcases.LoginPageTest@14acaea5]" name="teardown" is-config="true" duration-ms="917" started-at="2018-02-13T11:48:34Z" finished-at="2018-02-13T11:48:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.LoginPageTest@14acaea5]" name="setup" is-config="true" duration-ms="9623" started-at="2018-02-13T11:48:35Z" finished-at="2018-02-13T11:48:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ValidLoginTest()[pri:6, instance:com.jusdone.qa.testcases.LoginPageTest@14acaea5]" name="ValidLoginTest" duration-ms="5392" started-at="2018-02-13T11:48:44Z" finished-at="2018-02-13T11:48:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidLoginTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.jusdone.qa.testcases.LoginPageTest@14acaea5]" name="teardown" is-config="true" duration-ms="813" started-at="2018-02-13T11:48:50Z" finished-at="2018-02-13T11:48:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.LoginPageTest@14acaea5]" name="setup" is-config="true" duration-ms="9085" started-at="2018-02-13T11:48:50Z" finished-at="2018-02-13T11:49:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="InValidLoginTest()[pri:7, instance:com.jusdone.qa.testcases.LoginPageTest@14acaea5]" name="InValidLoginTest" duration-ms="1966" started-at="2018-02-13T11:49:00Z" finished-at="2018-02-13T11:49:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InValidLoginTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.jusdone.qa.testcases.LoginPageTest@14acaea5]" name="teardown" is-config="true" duration-ms="910" started-at="2018-02-13T11:49:01Z" finished-at="2018-02-13T11:49:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.LoginPageTest@14acaea5]" name="setup" is-config="true" duration-ms="8389" started-at="2018-02-13T11:49:02Z" finished-at="2018-02-13T11:49:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BlankEmailTest()[pri:8, instance:com.jusdone.qa.testcases.LoginPageTest@14acaea5]" name="BlankEmailTest" duration-ms="1044" started-at="2018-02-13T11:49:11Z" finished-at="2018-02-13T11:49:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BlankEmailTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.jusdone.qa.testcases.LoginPageTest@14acaea5]" name="teardown" is-config="true" duration-ms="805" started-at="2018-02-13T11:49:12Z" finished-at="2018-02-13T11:49:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.jusdone.qa.testcases.LoginPageTest -->
+    </test> <!-- Login -->
+    <test name="RegistrationPage" duration-ms="80977" started-at="2018-02-13T17:49:13Z" finished-at="2018-02-13T17:50:34Z">
+      <class name="com.jusdone.qa.testcases.RegistrationPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.RegistrationPageTest@29774679]" name="setup" is-config="true" duration-ms="8669" started-at="2018-02-13T11:49:13Z" finished-at="2018-02-13T11:49:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyRegisterNameTest()[pri:1, instance:com.jusdone.qa.testcases.RegistrationPageTest@29774679]" name="verifyRegisterNameTest" duration-ms="169" started-at="2018-02-13T11:49:21Z" finished-at="2018-02-13T11:49:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterNameTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jusdone.qa.testcases.RegistrationPageTest@1753acfe]" name="tearDown" is-config="true" duration-ms="961" started-at="2018-02-06T18:05:34Z" finished-at="2018-02-06T18:05:35Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jusdone.qa.testcases.RegistrationPageTest@29774679]" name="tearDown" is-config="true" duration-ms="804" started-at="2018-02-13T11:49:22Z" finished-at="2018-02-13T11:49:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.RegistrationPageTest@1753acfe]" name="setup" is-config="true" duration-ms="9733" started-at="2018-02-06T18:06:32Z" finished-at="2018-02-06T18:06:42Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.RegistrationPageTest@29774679]" name="setup" is-config="true" duration-ms="7660" started-at="2018-02-13T11:49:22Z" finished-at="2018-02-13T11:49:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="VerifySignInBtnTest()[pri:2, instance:com.jusdone.qa.testcases.RegistrationPageTest@1753acfe]" name="VerifySignInBtnTest" duration-ms="878" started-at="2018-02-06T18:06:42Z" finished-at="2018-02-06T18:06:42Z">
+        <test-method status="PASS" signature="VerifySignInBtnTest()[pri:2, instance:com.jusdone.qa.testcases.RegistrationPageTest@29774679]" name="VerifySignInBtnTest" duration-ms="111" started-at="2018-02-13T11:49:30Z" finished-at="2018-02-13T11:49:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifySignInBtnTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jusdone.qa.testcases.RegistrationPageTest@1753acfe]" name="tearDown" is-config="true" duration-ms="1025" started-at="2018-02-06T18:06:42Z" finished-at="2018-02-06T18:06:43Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jusdone.qa.testcases.RegistrationPageTest@29774679]" name="tearDown" is-config="true" duration-ms="903" started-at="2018-02-13T11:49:30Z" finished-at="2018-02-13T11:49:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.RegistrationPageTest@1753acfe]" name="setup" is-config="true" duration-ms="10070" started-at="2018-02-06T18:07:43Z" finished-at="2018-02-06T18:07:53Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.RegistrationPageTest@29774679]" name="setup" is-config="true" duration-ms="8831" started-at="2018-02-13T11:49:32Z" finished-at="2018-02-13T11:49:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="VerifyValidInputs(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.jusdone.qa.testcases.RegistrationPageTest@1753acfe]" name="VerifyValidInputs" duration-ms="25084" started-at="2018-02-06T18:07:53Z" data-provider="validFields" finished-at="2018-02-06T18:08:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Teja2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Teja23@yahoo.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Teja123]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Teja123]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='sidebar']/div/p[1]"}
-  (Session info: chrome=63.0.3239.132)
-  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
-System info: host: 'DESKTOP-3ND57S0', ip: '192.168.1.193', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\Murali\AppData\Local\Temp\scoped_dir8088_30357}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=63.0.3239.132, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 5dbd82ad703f7e58e34eecf1f98eabb3
-*** Element info: {Using=xpath, value=//*[@id='sidebar']/div/p[1]}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='sidebar']/div/p[1]"}
-  (Session info: chrome=63.0.3239.132)
-  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
-System info: host: 'DESKTOP-3ND57S0', ip: '192.168.1.193', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\Murali\AppData\Local\Temp\scoped_dir8088_30357}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=63.0.3239.132, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 5dbd82ad703f7e58e34eecf1f98eabb3
-*** Element info: {Using=xpath, value=//*[@id='sidebar']/div/p[1]}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy8.getWrappedElement(Unknown Source)
-	at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:51)
-	at com.google.common.collect.Iterators$6.transform(Iterators.java:820)
-	at com.google.common.collect.TransformedIterator.next(TransformedIterator.java:48)
-	at com.google.common.collect.Iterators.addAll(Iterators.java:373)
-	at com.google.common.collect.Lists.newArrayList(Lists.java:165)
-	at com.google.common.collect.Lists.newArrayList(Lists.java:150)
-	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:520)
-	at com.jusdone.qa.pages.RegistrationPage.VerifyValidInputs(RegistrationPage.java:114)
-	at com.jusdone.qa.testcases.RegistrationPageTest.VerifyValidInputs(RegistrationPageTest.java:68)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyValidInputs -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jusdone.qa.testcases.RegistrationPageTest@1753acfe]" name="tearDown" is-config="true" duration-ms="957" started-at="2018-02-06T18:08:18Z" finished-at="2018-02-06T18:08:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.RegistrationPageTest@1753acfe]" name="setup" is-config="true" duration-ms="8753" started-at="2018-02-06T18:09:13Z" finished-at="2018-02-06T18:09:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="ExistingUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.jusdone.qa.testcases.RegistrationPageTest@1753acfe]" name="ExistingUser" duration-ms="5080" started-at="2018-02-06T18:09:22Z" data-provider="Invalid" finished-at="2018-02-06T18:09:27Z">
+        <test-method status="PASS" signature="ExistingUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.jusdone.qa.testcases.RegistrationPageTest@29774679]" name="ExistingUser" duration-ms="3183" started-at="2018-02-13T11:49:41Z" data-provider="Invalid" finished-at="2018-02-13T11:49:44Z">
           <params>
             <param index="0">
               <value>
@@ -267,15 +225,15 @@ Session ID: 5dbd82ad703f7e58e34eecf1f98eabb3
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExistingUser -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jusdone.qa.testcases.RegistrationPageTest@1753acfe]" name="tearDown" is-config="true" duration-ms="1087" started-at="2018-02-06T18:09:27Z" finished-at="2018-02-06T18:09:28Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jusdone.qa.testcases.RegistrationPageTest@29774679]" name="tearDown" is-config="true" duration-ms="865" started-at="2018-02-13T11:49:44Z" finished-at="2018-02-13T11:49:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.RegistrationPageTest@1753acfe]" name="setup" is-config="true" duration-ms="10560" started-at="2018-02-06T18:10:24Z" finished-at="2018-02-06T18:10:34Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.RegistrationPageTest@29774679]" name="setup" is-config="true" duration-ms="10069" started-at="2018-02-13T11:49:45Z" finished-at="2018-02-13T11:49:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="PwdandConfirmPasswordnotMatched(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.jusdone.qa.testcases.RegistrationPageTest@1753acfe]" name="PwdandConfirmPasswordnotMatched" duration-ms="5159" started-at="2018-02-06T18:10:34Z" data-provider="diffPwd" finished-at="2018-02-06T18:10:40Z">
+        <test-method status="PASS" signature="PwdandConfirmPasswordnotMatched(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.jusdone.qa.testcases.RegistrationPageTest@29774679]" name="PwdandConfirmPasswordnotMatched" duration-ms="2561" started-at="2018-02-13T11:49:55Z" data-provider="diffPwd" finished-at="2018-02-13T11:49:58Z">
           <params>
             <param index="0">
               <value>
@@ -301,15 +259,15 @@ Session ID: 5dbd82ad703f7e58e34eecf1f98eabb3
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PwdandConfirmPasswordnotMatched -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jusdone.qa.testcases.RegistrationPageTest@1753acfe]" name="tearDown" is-config="true" duration-ms="1003" started-at="2018-02-06T18:10:40Z" finished-at="2018-02-06T18:10:41Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jusdone.qa.testcases.RegistrationPageTest@29774679]" name="tearDown" is-config="true" duration-ms="885" started-at="2018-02-13T11:49:58Z" finished-at="2018-02-13T11:49:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.RegistrationPageTest@1753acfe]" name="setup" is-config="true" duration-ms="8717" started-at="2018-02-06T18:10:41Z" finished-at="2018-02-06T18:10:49Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.RegistrationPageTest@29774679]" name="setup" is-config="true" duration-ms="9358" started-at="2018-02-13T11:49:59Z" finished-at="2018-02-13T11:50:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="SpecialChracters(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.jusdone.qa.testcases.RegistrationPageTest@1753acfe]" name="SpecialChracters" duration-ms="4790" started-at="2018-02-06T18:10:49Z" data-provider="SpecialCtrs" finished-at="2018-02-06T18:10:54Z">
+        <test-method status="PASS" signature="SpecialChracters(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.jusdone.qa.testcases.RegistrationPageTest@29774679]" name="SpecialChracters" duration-ms="2148" started-at="2018-02-13T11:50:08Z" data-provider="SpecialCtrs" finished-at="2018-02-13T11:50:10Z">
           <params>
             <param index="0">
               <value>
@@ -335,15 +293,15 @@ Session ID: 5dbd82ad703f7e58e34eecf1f98eabb3
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SpecialChracters -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jusdone.qa.testcases.RegistrationPageTest@1753acfe]" name="tearDown" is-config="true" duration-ms="978" started-at="2018-02-06T18:10:54Z" finished-at="2018-02-06T18:10:55Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jusdone.qa.testcases.RegistrationPageTest@29774679]" name="tearDown" is-config="true" duration-ms="881" started-at="2018-02-13T11:50:10Z" finished-at="2018-02-13T11:50:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.RegistrationPageTest@1753acfe]" name="setup" is-config="true" duration-ms="10478" started-at="2018-02-06T18:11:42Z" finished-at="2018-02-06T18:11:53Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.RegistrationPageTest@29774679]" name="setup" is-config="true" duration-ms="9088" started-at="2018-02-13T11:50:11Z" finished-at="2018-02-13T11:50:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="BlankNameField(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:com.jusdone.qa.testcases.RegistrationPageTest@1753acfe]" name="BlankNameField" duration-ms="4183" started-at="2018-02-06T18:11:53Z" data-provider="BlankField" finished-at="2018-02-06T18:11:57Z">
+        <test-method status="PASS" signature="BlankNameField(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:com.jusdone.qa.testcases.RegistrationPageTest@29774679]" name="BlankNameField" duration-ms="2084" started-at="2018-02-13T11:50:20Z" data-provider="BlankField" finished-at="2018-02-13T11:50:22Z">
           <params>
             <param index="0">
               <value>
@@ -369,495 +327,271 @@ Session ID: 5dbd82ad703f7e58e34eecf1f98eabb3
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BlankNameField -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jusdone.qa.testcases.RegistrationPageTest@1753acfe]" name="tearDown" is-config="true" duration-ms="1002" started-at="2018-02-06T18:11:57Z" finished-at="2018-02-06T18:11:58Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jusdone.qa.testcases.RegistrationPageTest@29774679]" name="tearDown" is-config="true" duration-ms="804" started-at="2018-02-13T11:50:22Z" finished-at="2018-02-13T11:50:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.RegistrationPageTest@1753acfe]" name="setup" is-config="true" duration-ms="10221" started-at="2018-02-06T18:12:49Z" finished-at="2018-02-06T18:13:00Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.RegistrationPageTest@29774679]" name="setup" is-config="true" duration-ms="8988" started-at="2018-02-13T11:50:23Z" finished-at="2018-02-13T11:50:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="ClickSignInBtnTest()[pri:7, instance:com.jusdone.qa.testcases.RegistrationPageTest@1753acfe]" name="ClickSignInBtnTest" duration-ms="1431" started-at="2018-02-06T18:13:00Z" finished-at="2018-02-06T18:13:01Z">
+        <test-method status="PASS" signature="ClickSignInBtnTest()[pri:7, instance:com.jusdone.qa.testcases.RegistrationPageTest@29774679]" name="ClickSignInBtnTest" duration-ms="709" started-at="2018-02-13T11:50:32Z" finished-at="2018-02-13T11:50:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickSignInBtnTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jusdone.qa.testcases.RegistrationPageTest@1753acfe]" name="tearDown" is-config="true" duration-ms="1048" started-at="2018-02-06T18:13:01Z" finished-at="2018-02-06T18:13:02Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jusdone.qa.testcases.RegistrationPageTest@29774679]" name="tearDown" is-config="true" duration-ms="930" started-at="2018-02-13T11:50:33Z" finished-at="2018-02-13T11:50:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.jusdone.qa.testcases.RegistrationPageTest -->
-      <class name="com.jusdone.qa.testcases.LoginPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.LoginPageTest@548a9f61]" name="setup" is-config="true" duration-ms="9097" started-at="2018-02-06T18:05:13Z" finished-at="2018-02-06T18:05:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyLoginNameTest()[pri:1, instance:com.jusdone.qa.testcases.LoginPageTest@548a9f61]" name="verifyLoginNameTest" duration-ms="227" started-at="2018-02-06T18:05:22Z" finished-at="2018-02-06T18:05:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginNameTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.jusdone.qa.testcases.LoginPageTest@548a9f61]" name="teardown" is-config="true" duration-ms="1110" started-at="2018-02-06T18:05:22Z" finished-at="2018-02-06T18:05:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.LoginPageTest@548a9f61]" name="setup" is-config="true" duration-ms="9765" started-at="2018-02-06T18:06:21Z" finished-at="2018-02-06T18:06:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyLoginBtnTest()[pri:2, instance:com.jusdone.qa.testcases.LoginPageTest@548a9f61]" name="verifyLoginBtnTest" duration-ms="285" started-at="2018-02-06T18:06:30Z" finished-at="2018-02-06T18:06:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginBtnTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.jusdone.qa.testcases.LoginPageTest@548a9f61]" name="teardown" is-config="true" duration-ms="1129" started-at="2018-02-06T18:06:31Z" finished-at="2018-02-06T18:06:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.LoginPageTest@548a9f61]" name="setup" is-config="true" duration-ms="14326" started-at="2018-02-06T18:07:26Z" finished-at="2018-02-06T18:07:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyForgotPasswordTest()[pri:3, instance:com.jusdone.qa.testcases.LoginPageTest@548a9f61]" name="verifyForgotPasswordTest" duration-ms="163" started-at="2018-02-06T18:07:40Z" finished-at="2018-02-06T18:07:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyForgotPasswordTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.jusdone.qa.testcases.LoginPageTest@548a9f61]" name="teardown" is-config="true" duration-ms="1033" started-at="2018-02-06T18:07:40Z" finished-at="2018-02-06T18:07:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.LoginPageTest@548a9f61]" name="setup" is-config="true" duration-ms="10346" started-at="2018-02-06T18:09:02Z" finished-at="2018-02-06T18:09:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyCtrAnAcctTest()[pri:4, instance:com.jusdone.qa.testcases.LoginPageTest@548a9f61]" name="verifyCtrAnAcctTest" duration-ms="180" started-at="2018-02-06T18:09:12Z" finished-at="2018-02-06T18:09:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyCtrAnAcctTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.jusdone.qa.testcases.LoginPageTest@548a9f61]" name="teardown" is-config="true" duration-ms="939" started-at="2018-02-06T18:09:12Z" finished-at="2018-02-06T18:09:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.LoginPageTest@548a9f61]" name="setup" is-config="true" duration-ms="8972" started-at="2018-02-06T18:10:13Z" finished-at="2018-02-06T18:10:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="verifyRememberMeTest()[pri:5, instance:com.jusdone.qa.testcases.LoginPageTest@548a9f61]" name="verifyRememberMeTest" duration-ms="218" started-at="2018-02-06T18:10:22Z" finished-at="2018-02-06T18:10:23Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:93)
-	at org.testng.Assert.failNotEquals(Assert.java:512)
-	at org.testng.Assert.assertTrue(Assert.java:41)
-	at org.testng.Assert.assertTrue(Assert.java:51)
-	at com.jusdone.qa.testcases.LoginPageTest.verifyRememberMeTest(LoginPageTest.java:66)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyRememberMeTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.jusdone.qa.testcases.LoginPageTest@548a9f61]" name="teardown" is-config="true" duration-ms="1138" started-at="2018-02-06T18:10:23Z" finished-at="2018-02-06T18:10:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.LoginPageTest@548a9f61]" name="setup" is-config="true" duration-ms="10654" started-at="2018-02-06T18:11:25Z" finished-at="2018-02-06T18:11:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="ValidLoginTest()[pri:6, instance:com.jusdone.qa.testcases.LoginPageTest@548a9f61]" name="ValidLoginTest" duration-ms="5546" started-at="2018-02-06T18:11:36Z" finished-at="2018-02-06T18:11:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ValidLoginTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.jusdone.qa.testcases.LoginPageTest@548a9f61]" name="teardown" is-config="true" duration-ms="962" started-at="2018-02-06T18:11:41Z" finished-at="2018-02-06T18:11:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.LoginPageTest@548a9f61]" name="setup" is-config="true" duration-ms="9952" started-at="2018-02-06T18:12:35Z" finished-at="2018-02-06T18:12:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="InValidLoginTest()[pri:7, instance:com.jusdone.qa.testcases.LoginPageTest@548a9f61]" name="InValidLoginTest" duration-ms="3112" started-at="2018-02-06T18:12:45Z" finished-at="2018-02-06T18:12:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- InValidLoginTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.jusdone.qa.testcases.LoginPageTest@548a9f61]" name="teardown" is-config="true" duration-ms="1065" started-at="2018-02-06T18:12:48Z" finished-at="2018-02-06T18:12:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.LoginPageTest@548a9f61]" name="setup" is-config="true" duration-ms="9385" started-at="2018-02-06T18:13:19Z" finished-at="2018-02-06T18:13:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="BlankEmailTest()[pri:8, instance:com.jusdone.qa.testcases.LoginPageTest@548a9f61]" name="BlankEmailTest" duration-ms="2145" started-at="2018-02-06T18:13:29Z" finished-at="2018-02-06T18:13:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BlankEmailTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.jusdone.qa.testcases.LoginPageTest@548a9f61]" name="teardown" is-config="true" duration-ms="1123" started-at="2018-02-06T18:13:31Z" finished-at="2018-02-06T18:13:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.jusdone.qa.testcases.LoginPageTest -->
+    </test> <!-- RegistrationPage -->
+    <test name="DashBoardPage" duration-ms="257733" started-at="2018-02-13T17:50:34Z" finished-at="2018-02-13T17:54:51Z">
       <class name="com.jusdone.qa.testcases.DashBoardTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@d2cc05a]" name="setup" is-config="true" duration-ms="24905" started-at="2018-02-06T18:04:38Z" finished-at="2018-02-06T18:05:03Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@59f99ea]" name="setup" is-config="true" duration-ms="15668" started-at="2018-02-13T11:50:34Z" finished-at="2018-02-13T11:50:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyUserNameTest()[pri:1, instance:com.jusdone.qa.testcases.DashBoardTest@d2cc05a]" name="verifyUserNameTest" duration-ms="149" started-at="2018-02-06T18:05:03Z" finished-at="2018-02-06T18:05:03Z">
+        <test-method status="PASS" signature="verifyUserNameTest()[pri:1, instance:com.jusdone.qa.testcases.DashBoardTest@59f99ea]" name="verifyUserNameTest" duration-ms="66" started-at="2018-02-13T11:50:49Z" finished-at="2018-02-13T11:50:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserNameTest -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@d2cc05a]" name="TearDown" is-config="true" duration-ms="989" started-at="2018-02-06T18:05:03Z" finished-at="2018-02-06T18:05:04Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@59f99ea]" name="TearDown" is-config="true" duration-ms="878" started-at="2018-02-13T11:50:49Z" finished-at="2018-02-13T11:50:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@d2cc05a]" name="setup" is-config="true" duration-ms="15502" started-at="2018-02-06T18:05:56Z" finished-at="2018-02-06T18:06:11Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@59f99ea]" name="setup" is-config="true" duration-ms="15282" started-at="2018-02-13T11:50:50Z" finished-at="2018-02-13T11:51:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifySearchBox()[pri:2, instance:com.jusdone.qa.testcases.DashBoardTest@d2cc05a]" name="verifySearchBox" duration-ms="147" started-at="2018-02-06T18:06:11Z" finished-at="2018-02-06T18:06:11Z">
+        <test-method status="PASS" signature="verifySearchBox()[pri:2, instance:com.jusdone.qa.testcases.DashBoardTest@59f99ea]" name="verifySearchBox" duration-ms="78" started-at="2018-02-13T11:51:06Z" finished-at="2018-02-13T11:51:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySearchBox -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@d2cc05a]" name="TearDown" is-config="true" duration-ms="1181" started-at="2018-02-06T18:06:11Z" finished-at="2018-02-06T18:06:13Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@59f99ea]" name="TearDown" is-config="true" duration-ms="901" started-at="2018-02-13T11:51:06Z" finished-at="2018-02-13T11:51:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@d2cc05a]" name="setup" is-config="true" duration-ms="14609" started-at="2018-02-06T18:07:02Z" finished-at="2018-02-06T18:07:16Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@59f99ea]" name="setup" is-config="true" duration-ms="16895" started-at="2018-02-13T11:51:07Z" finished-at="2018-02-13T11:51:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyTeamsLabel()[pri:3, instance:com.jusdone.qa.testcases.DashBoardTest@d2cc05a]" name="verifyTeamsLabel" duration-ms="168" started-at="2018-02-06T18:07:16Z" finished-at="2018-02-06T18:07:16Z">
+        <test-method status="PASS" signature="verifyTeamsLabel()[pri:3, instance:com.jusdone.qa.testcases.DashBoardTest@59f99ea]" name="verifyTeamsLabel" duration-ms="88" started-at="2018-02-13T11:51:23Z" finished-at="2018-02-13T11:51:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTeamsLabel -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@d2cc05a]" name="TearDown" is-config="true" duration-ms="967" started-at="2018-02-06T18:07:16Z" finished-at="2018-02-06T18:07:17Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@59f99ea]" name="TearDown" is-config="true" duration-ms="817" started-at="2018-02-13T11:51:24Z" finished-at="2018-02-13T11:51:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@d2cc05a]" name="setup" is-config="true" duration-ms="16165" started-at="2018-02-06T18:08:36Z" finished-at="2018-02-06T18:08:53Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@59f99ea]" name="setup" is-config="true" duration-ms="14721" started-at="2018-02-13T11:51:24Z" finished-at="2018-02-13T11:51:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyDashBoardTab()[pri:4, instance:com.jusdone.qa.testcases.DashBoardTest@d2cc05a]" name="verifyDashBoardTab" duration-ms="126" started-at="2018-02-06T18:08:53Z" finished-at="2018-02-06T18:08:53Z">
+        <test-method status="PASS" signature="verifyDashBoardTab()[pri:4, instance:com.jusdone.qa.testcases.DashBoardTest@59f99ea]" name="verifyDashBoardTab" duration-ms="98" started-at="2018-02-13T11:51:39Z" finished-at="2018-02-13T11:51:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDashBoardTab -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@d2cc05a]" name="TearDown" is-config="true" duration-ms="1045" started-at="2018-02-06T18:08:53Z" finished-at="2018-02-06T18:08:54Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@59f99ea]" name="TearDown" is-config="true" duration-ms="805" started-at="2018-02-13T11:51:39Z" finished-at="2018-02-13T11:51:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@d2cc05a]" name="setup" is-config="true" duration-ms="15500" started-at="2018-02-06T18:09:49Z" finished-at="2018-02-06T18:10:04Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@59f99ea]" name="setup" is-config="true" duration-ms="17643" started-at="2018-02-13T11:51:40Z" finished-at="2018-02-13T11:51:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyTaskTabTest()[pri:5, instance:com.jusdone.qa.testcases.DashBoardTest@d2cc05a]" name="verifyTaskTabTest" duration-ms="148" started-at="2018-02-06T18:10:04Z" finished-at="2018-02-06T18:10:04Z">
+        <test-method status="PASS" signature="verifyTaskTabTest()[pri:5, instance:com.jusdone.qa.testcases.DashBoardTest@59f99ea]" name="verifyTaskTabTest" duration-ms="64" started-at="2018-02-13T11:51:58Z" finished-at="2018-02-13T11:51:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTaskTabTest -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@d2cc05a]" name="TearDown" is-config="true" duration-ms="978" started-at="2018-02-06T18:10:04Z" finished-at="2018-02-06T18:10:05Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@59f99ea]" name="TearDown" is-config="true" duration-ms="763" started-at="2018-02-13T11:51:58Z" finished-at="2018-02-13T11:51:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@d2cc05a]" name="setup" is-config="true" duration-ms="16341" started-at="2018-02-06T18:10:55Z" finished-at="2018-02-06T18:11:12Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@59f99ea]" name="setup" is-config="true" duration-ms="16410" started-at="2018-02-13T11:51:58Z" finished-at="2018-02-13T11:52:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyTeamsTab()[pri:6, instance:com.jusdone.qa.testcases.DashBoardTest@d2cc05a]" name="verifyTeamsTab" duration-ms="137" started-at="2018-02-06T18:11:12Z" finished-at="2018-02-06T18:11:12Z">
+        <test-method status="PASS" signature="verifyTeamsTab()[pri:6, instance:com.jusdone.qa.testcases.DashBoardTest@59f99ea]" name="verifyTeamsTab" duration-ms="71" started-at="2018-02-13T11:52:15Z" finished-at="2018-02-13T11:52:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTeamsTab -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@d2cc05a]" name="TearDown" is-config="true" duration-ms="1081" started-at="2018-02-06T18:11:12Z" finished-at="2018-02-06T18:11:13Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@59f99ea]" name="TearDown" is-config="true" duration-ms="814" started-at="2018-02-13T11:52:15Z" finished-at="2018-02-13T11:52:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@d2cc05a]" name="setup" is-config="true" duration-ms="20533" started-at="2018-02-06T18:11:58Z" finished-at="2018-02-06T18:12:19Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@59f99ea]" name="setup" is-config="true" duration-ms="13210" started-at="2018-02-13T11:52:16Z" finished-at="2018-02-13T11:52:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyInvitesTab()[pri:7, instance:com.jusdone.qa.testcases.DashBoardTest@d2cc05a]" name="verifyInvitesTab" duration-ms="120" started-at="2018-02-06T18:12:19Z" finished-at="2018-02-06T18:12:19Z">
+        <test-method status="PASS" signature="verifyInvitesTab()[pri:7, instance:com.jusdone.qa.testcases.DashBoardTest@59f99ea]" name="verifyInvitesTab" duration-ms="64" started-at="2018-02-13T11:52:29Z" finished-at="2018-02-13T11:52:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyInvitesTab -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@d2cc05a]" name="TearDown" is-config="true" duration-ms="967" started-at="2018-02-06T18:12:19Z" finished-at="2018-02-06T18:12:20Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@59f99ea]" name="TearDown" is-config="true" duration-ms="850" started-at="2018-02-13T11:52:29Z" finished-at="2018-02-13T11:52:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@d2cc05a]" name="setup" is-config="true" duration-ms="15912" started-at="2018-02-06T18:13:02Z" finished-at="2018-02-06T18:13:18Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@59f99ea]" name="setup" is-config="true" duration-ms="14814" started-at="2018-02-13T11:52:30Z" finished-at="2018-02-13T11:52:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifySettingsTab()[pri:8, instance:com.jusdone.qa.testcases.DashBoardTest@d2cc05a]" name="verifySettingsTab" duration-ms="123" started-at="2018-02-06T18:13:18Z" finished-at="2018-02-06T18:13:18Z">
+        <test-method status="PASS" signature="verifySettingsTab()[pri:8, instance:com.jusdone.qa.testcases.DashBoardTest@59f99ea]" name="verifySettingsTab" duration-ms="67" started-at="2018-02-13T11:52:45Z" finished-at="2018-02-13T11:52:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySettingsTab -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@d2cc05a]" name="TearDown" is-config="true" duration-ms="951" started-at="2018-02-06T18:13:18Z" finished-at="2018-02-06T18:13:19Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@59f99ea]" name="TearDown" is-config="true" duration-ms="866" started-at="2018-02-13T11:52:45Z" finished-at="2018-02-13T11:52:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@d2cc05a]" name="setup" is-config="true" duration-ms="16074" started-at="2018-02-06T18:13:32Z" finished-at="2018-02-06T18:13:48Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@59f99ea]" name="setup" is-config="true" duration-ms="13825" started-at="2018-02-13T11:52:46Z" finished-at="2018-02-13T11:52:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyMenuBar()[pri:9, instance:com.jusdone.qa.testcases.DashBoardTest@d2cc05a]" name="verifyMenuBar" duration-ms="132" started-at="2018-02-06T18:13:48Z" finished-at="2018-02-06T18:13:48Z">
+        <test-method status="PASS" signature="verifyMenuBar()[pri:9, instance:com.jusdone.qa.testcases.DashBoardTest@59f99ea]" name="verifyMenuBar" duration-ms="71" started-at="2018-02-13T11:52:59Z" finished-at="2018-02-13T11:53:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyMenuBar -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@d2cc05a]" name="TearDown" is-config="true" duration-ms="982" started-at="2018-02-06T18:13:48Z" finished-at="2018-02-06T18:13:49Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@59f99ea]" name="TearDown" is-config="true" duration-ms="867" started-at="2018-02-13T11:53:00Z" finished-at="2018-02-13T11:53:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@d2cc05a]" name="setup" is-config="true" duration-ms="15984" started-at="2018-02-06T18:13:49Z" finished-at="2018-02-06T18:14:05Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@59f99ea]" name="setup" is-config="true" duration-ms="14754" started-at="2018-02-13T11:53:00Z" finished-at="2018-02-13T11:53:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="VerifyCreateNewTeamBtn()[pri:10, instance:com.jusdone.qa.testcases.DashBoardTest@d2cc05a]" name="VerifyCreateNewTeamBtn" duration-ms="150" started-at="2018-02-06T18:14:05Z" finished-at="2018-02-06T18:14:05Z">
+        <test-method status="PASS" signature="VerifyCreateNewTeamBtn()[pri:10, instance:com.jusdone.qa.testcases.DashBoardTest@59f99ea]" name="VerifyCreateNewTeamBtn" duration-ms="92" started-at="2018-02-13T11:53:15Z" finished-at="2018-02-13T11:53:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyCreateNewTeamBtn -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@d2cc05a]" name="TearDown" is-config="true" duration-ms="1087" started-at="2018-02-06T18:14:05Z" finished-at="2018-02-06T18:14:06Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@59f99ea]" name="TearDown" is-config="true" duration-ms="888" started-at="2018-02-13T11:53:15Z" finished-at="2018-02-13T11:53:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@d2cc05a]" name="setup" is-config="true" duration-ms="16271" started-at="2018-02-06T18:14:06Z" finished-at="2018-02-06T18:14:23Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@59f99ea]" name="setup" is-config="true" duration-ms="13656" started-at="2018-02-13T11:53:16Z" finished-at="2018-02-13T11:53:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="VerifyBellBtn()[pri:11, instance:com.jusdone.qa.testcases.DashBoardTest@d2cc05a]" name="VerifyBellBtn" duration-ms="122" started-at="2018-02-06T18:14:23Z" finished-at="2018-02-06T18:14:23Z">
+        <test-method status="PASS" signature="VerifyBellBtn()[pri:11, instance:com.jusdone.qa.testcases.DashBoardTest@59f99ea]" name="VerifyBellBtn" duration-ms="63" started-at="2018-02-13T11:53:30Z" finished-at="2018-02-13T11:53:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyBellBtn -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@d2cc05a]" name="TearDown" is-config="true" duration-ms="1045" started-at="2018-02-06T18:14:23Z" finished-at="2018-02-06T18:14:24Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@59f99ea]" name="TearDown" is-config="true" duration-ms="907" started-at="2018-02-13T11:53:30Z" finished-at="2018-02-13T11:53:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@d2cc05a]" name="setup" is-config="true" duration-ms="16256" started-at="2018-02-06T18:14:24Z" finished-at="2018-02-06T18:14:40Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@59f99ea]" name="setup" is-config="true" duration-ms="14307" started-at="2018-02-13T11:53:31Z" finished-at="2018-02-13T11:53:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="VerifyLogOutBtn()[pri:12, instance:com.jusdone.qa.testcases.DashBoardTest@d2cc05a]" name="VerifyLogOutBtn" duration-ms="123" started-at="2018-02-06T18:14:40Z" finished-at="2018-02-06T18:14:40Z">
+        <test-method status="PASS" signature="VerifyLogOutBtn()[pri:12, instance:com.jusdone.qa.testcases.DashBoardTest@59f99ea]" name="VerifyLogOutBtn" duration-ms="79" started-at="2018-02-13T11:53:45Z" finished-at="2018-02-13T11:53:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyLogOutBtn -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@d2cc05a]" name="TearDown" is-config="true" duration-ms="1011" started-at="2018-02-06T18:14:40Z" finished-at="2018-02-06T18:14:41Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@59f99ea]" name="TearDown" is-config="true" duration-ms="878" started-at="2018-02-13T11:53:45Z" finished-at="2018-02-13T11:53:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@d2cc05a]" name="setup" is-config="true" duration-ms="20164" started-at="2018-02-06T18:14:41Z" finished-at="2018-02-06T18:15:01Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@59f99ea]" name="setup" is-config="true" duration-ms="13792" started-at="2018-02-13T11:53:46Z" finished-at="2018-02-13T11:54:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="EnteringTeamInputsTest()[pri:13, instance:com.jusdone.qa.testcases.DashBoardTest@d2cc05a]" name="EnteringTeamInputsTest" duration-ms="4290" started-at="2018-02-06T18:15:01Z" finished-at="2018-02-06T18:15:06Z">
+        <test-method status="PASS" signature="EnteringTeamInputsTest()[pri:13, instance:com.jusdone.qa.testcases.DashBoardTest@59f99ea]" name="EnteringTeamInputsTest" duration-ms="3706" started-at="2018-02-13T11:54:00Z" finished-at="2018-02-13T11:54:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EnteringTeamInputsTest -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@d2cc05a]" name="TearDown" is-config="true" duration-ms="1012" started-at="2018-02-06T18:15:06Z" finished-at="2018-02-06T18:15:07Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@59f99ea]" name="TearDown" is-config="true" duration-ms="890" started-at="2018-02-13T11:54:04Z" finished-at="2018-02-13T11:54:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@d2cc05a]" name="setup" is-config="true" duration-ms="15696" started-at="2018-02-06T18:15:07Z" finished-at="2018-02-06T18:15:22Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@59f99ea]" name="setup" is-config="true" duration-ms="13510" started-at="2018-02-13T11:54:04Z" finished-at="2018-02-13T11:54:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="CreateNewTaskLinkTest()[pri:14, instance:com.jusdone.qa.testcases.DashBoardTest@d2cc05a]" name="CreateNewTaskLinkTest" duration-ms="146" started-at="2018-02-06T18:15:22Z" finished-at="2018-02-06T18:15:22Z">
+        <test-method status="PASS" signature="CreateNewTaskLinkTest()[pri:14, instance:com.jusdone.qa.testcases.DashBoardTest@59f99ea]" name="CreateNewTaskLinkTest" duration-ms="69" started-at="2018-02-13T11:54:18Z" finished-at="2018-02-13T11:54:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateNewTaskLinkTest -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@d2cc05a]" name="TearDown" is-config="true" duration-ms="984" started-at="2018-02-06T18:15:22Z" finished-at="2018-02-06T18:15:23Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@59f99ea]" name="TearDown" is-config="true" duration-ms="781" started-at="2018-02-13T11:54:18Z" finished-at="2018-02-13T11:54:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@d2cc05a]" name="setup" is-config="true" duration-ms="15048" started-at="2018-02-06T18:15:23Z" finished-at="2018-02-06T18:15:38Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@59f99ea]" name="setup" is-config="true" duration-ms="13552" started-at="2018-02-13T11:54:19Z" finished-at="2018-02-13T11:54:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="ClickTaskTabTest()[pri:15, instance:com.jusdone.qa.testcases.DashBoardTest@d2cc05a]" name="ClickTaskTabTest" duration-ms="1647" started-at="2018-02-06T18:15:38Z" finished-at="2018-02-06T18:15:40Z">
+        <test-method status="PASS" signature="ClickTaskTabTest()[pri:15, instance:com.jusdone.qa.testcases.DashBoardTest@59f99ea]" name="ClickTaskTabTest" duration-ms="1093" started-at="2018-02-13T11:54:32Z" finished-at="2018-02-13T11:54:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickTaskTabTest -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@d2cc05a]" name="TearDown" is-config="true" duration-ms="1316" started-at="2018-02-06T18:15:40Z" finished-at="2018-02-06T18:15:41Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@59f99ea]" name="TearDown" is-config="true" duration-ms="881" started-at="2018-02-13T11:54:33Z" finished-at="2018-02-13T11:54:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@d2cc05a]" name="setup" is-config="true" duration-ms="15051" started-at="2018-02-06T18:15:41Z" finished-at="2018-02-06T18:15:56Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@59f99ea]" name="setup" is-config="true" duration-ms="15214" started-at="2018-02-13T11:54:34Z" finished-at="2018-02-13T11:54:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="ClickCreateNewTaskLinkTest()[pri:16, instance:com.jusdone.qa.testcases.DashBoardTest@d2cc05a]" name="ClickCreateNewTaskLinkTest" duration-ms="176" started-at="2018-02-06T18:15:56Z" finished-at="2018-02-06T18:15:57Z">
-          <exception class="org.openqa.selenium.ElementNotVisibleException">
-            <message>
-              <![CDATA[element not visible
-  (Session info: chrome=63.0.3239.132)
-  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
-System info: host: 'DESKTOP-3ND57S0', ip: '192.168.1.193', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\Murali\AppData\Local\Temp\scoped_dir5160_17592}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=63.0.3239.132, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 24d300fcf97d37d523b713ca0ee8f459]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotVisibleException: element not visible
-  (Session info: chrome=63.0.3239.132)
-  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
-System info: host: 'DESKTOP-3ND57S0', ip: '192.168.1.193', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\Murali\AppData\Local\Temp\scoped_dir5160_17592}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=63.0.3239.132, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 24d300fcf97d37d523b713ca0ee8f459
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy8.click(Unknown Source)
-	at com.jusdone.qa.pages.DashBoardPage.ClickCreateNewTaskLink(DashBoardPage.java:190)
-	at com.jusdone.qa.testcases.DashBoardTest.ClickCreateNewTaskLinkTest(DashBoardTest.java:123)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotVisibleException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ClickCreateNewTaskLinkTest -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@d2cc05a]" name="TearDown" is-config="true" duration-ms="1048" started-at="2018-02-06T18:15:57Z" finished-at="2018-02-06T18:15:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@d2cc05a]" name="setup" is-config="true" duration-ms="17101" started-at="2018-02-06T18:15:58Z" finished-at="2018-02-06T18:16:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="ClickLogOutBtnTest()[pri:17, instance:com.jusdone.qa.testcases.DashBoardTest@d2cc05a]" name="ClickLogOutBtnTest" duration-ms="1305" started-at="2018-02-06T18:16:15Z" finished-at="2018-02-06T18:16:16Z">
+        <test-method status="PASS" signature="ClickLogOutBtnTest()[pri:17, instance:com.jusdone.qa.testcases.DashBoardTest@59f99ea]" name="ClickLogOutBtnTest" duration-ms="1030" started-at="2018-02-13T11:54:50Z" finished-at="2018-02-13T11:54:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickLogOutBtnTest -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@d2cc05a]" name="TearDown" is-config="true" duration-ms="1040" started-at="2018-02-06T18:16:16Z" finished-at="2018-02-06T18:16:17Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.jusdone.qa.testcases.DashBoardTest@59f99ea]" name="TearDown" is-config="true" duration-ms="871" started-at="2018-02-13T11:54:51Z" finished-at="2018-02-13T11:54:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- com.jusdone.qa.testcases.DashBoardTest -->
+    </test> <!-- DashBoardPage -->
+    <test name="TaskPage" duration-ms="65818" started-at="2018-02-13T17:54:51Z" finished-at="2018-02-13T17:55:57Z">
       <class name="com.jusdone.qa.testcases.TaskPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jusdone.qa.testcases.TaskPageTest@7c16905e]" name="setUp" is-config="true" duration-ms="17247" started-at="2018-02-06T18:05:35Z" finished-at="2018-02-06T18:05:52Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jusdone.qa.testcases.TaskPageTest@1e88b3c]" name="setUp" is-config="true" duration-ms="15038" started-at="2018-02-13T11:54:51Z" finished-at="2018-02-13T11:55:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyCreateNewTaskLinkTest()[pri:1, instance:com.jusdone.qa.testcases.TaskPageTest@7c16905e]" name="verifyCreateNewTaskLinkTest" duration-ms="3163" started-at="2018-02-06T18:05:52Z" finished-at="2018-02-06T18:05:55Z">
+        <test-method status="PASS" signature="verifyCreateNewTaskLinkTest()[pri:1, instance:com.jusdone.qa.testcases.TaskPageTest@1e88b3c]" name="verifyCreateNewTaskLinkTest" duration-ms="3073" started-at="2018-02-13T11:55:06Z" finished-at="2018-02-13T11:55:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCreateNewTaskLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jusdone.qa.testcases.TaskPageTest@7c16905e]" name="tearDown" is-config="true" duration-ms="420" started-at="2018-02-06T18:05:55Z" finished-at="2018-02-06T18:05:56Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jusdone.qa.testcases.TaskPageTest@1e88b3c]" name="tearDown" is-config="true" duration-ms="248" started-at="2018-02-13T11:55:10Z" finished-at="2018-02-13T11:55:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jusdone.qa.testcases.TaskPageTest@7c16905e]" name="setUp" is-config="true" duration-ms="17212" started-at="2018-02-06T18:06:43Z" finished-at="2018-02-06T18:07:01Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jusdone.qa.testcases.TaskPageTest@1e88b3c]" name="setUp" is-config="true" duration-ms="14175" started-at="2018-02-13T11:55:10Z" finished-at="2018-02-13T11:55:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyMembersLinkTest()[pri:2, instance:com.jusdone.qa.testcases.TaskPageTest@7c16905e]" name="verifyMembersLinkTest" duration-ms="373" started-at="2018-02-06T18:07:01Z" finished-at="2018-02-06T18:07:01Z">
+        <test-method status="PASS" signature="verifyMembersLinkTest()[pri:2, instance:com.jusdone.qa.testcases.TaskPageTest@1e88b3c]" name="verifyMembersLinkTest" duration-ms="71" started-at="2018-02-13T11:55:24Z" finished-at="2018-02-13T11:55:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyMembersLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jusdone.qa.testcases.TaskPageTest@7c16905e]" name="tearDown" is-config="true" duration-ms="630" started-at="2018-02-06T18:07:01Z" finished-at="2018-02-06T18:07:02Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jusdone.qa.testcases.TaskPageTest@1e88b3c]" name="tearDown" is-config="true" duration-ms="203" started-at="2018-02-13T11:55:24Z" finished-at="2018-02-13T11:55:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jusdone.qa.testcases.TaskPageTest@7c16905e]" name="setUp" is-config="true" duration-ms="16465" started-at="2018-02-06T18:08:19Z" finished-at="2018-02-06T18:08:36Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jusdone.qa.testcases.TaskPageTest@1e88b3c]" name="setUp" is-config="true" duration-ms="14047" started-at="2018-02-13T11:55:24Z" finished-at="2018-02-13T11:55:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifySettingsLinkTest()[pri:3, instance:com.jusdone.qa.testcases.TaskPageTest@7c16905e]" name="verifySettingsLinkTest" duration-ms="135" started-at="2018-02-06T18:08:36Z" finished-at="2018-02-06T18:08:36Z">
+        <test-method status="PASS" signature="verifySettingsLinkTest()[pri:3, instance:com.jusdone.qa.testcases.TaskPageTest@1e88b3c]" name="verifySettingsLinkTest" duration-ms="102" started-at="2018-02-13T11:55:38Z" finished-at="2018-02-13T11:55:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySettingsLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jusdone.qa.testcases.TaskPageTest@7c16905e]" name="tearDown" is-config="true" duration-ms="472" started-at="2018-02-06T18:08:36Z" finished-at="2018-02-06T18:08:36Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jusdone.qa.testcases.TaskPageTest@1e88b3c]" name="tearDown" is-config="true" duration-ms="484" started-at="2018-02-13T11:55:38Z" finished-at="2018-02-13T11:55:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jusdone.qa.testcases.TaskPageTest@7c16905e]" name="setUp" is-config="true" duration-ms="15714" started-at="2018-02-06T18:09:28Z" finished-at="2018-02-06T18:09:44Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jusdone.qa.testcases.TaskPageTest@1e88b3c]" name="setUp" is-config="true" duration-ms="14087" started-at="2018-02-13T11:55:39Z" finished-at="2018-02-13T11:55:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="ClickCreateNewTaskLinkTest()[pri:4, instance:com.jusdone.qa.testcases.TaskPageTest@7c16905e]" name="ClickCreateNewTaskLinkTest" duration-ms="4187" started-at="2018-02-06T18:09:44Z" finished-at="2018-02-06T18:09:48Z">
+        <test-method status="PASS" signature="ClickCreateNewTaskLinkTest()[pri:4, instance:com.jusdone.qa.testcases.TaskPageTest@1e88b3c]" name="ClickCreateNewTaskLinkTest" duration-ms="4062" started-at="2018-02-13T11:55:53Z" finished-at="2018-02-13T11:55:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickCreateNewTaskLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jusdone.qa.testcases.TaskPageTest@7c16905e]" name="tearDown" is-config="true" duration-ms="504" started-at="2018-02-06T18:09:48Z" finished-at="2018-02-06T18:09:49Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jusdone.qa.testcases.TaskPageTest@1e88b3c]" name="tearDown" is-config="true" duration-ms="225" started-at="2018-02-13T11:55:57Z" finished-at="2018-02-13T11:55:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.jusdone.qa.testcases.TaskPageTest -->
-    </test> <!-- Surefire test -->
-  </suite> <!-- Surefire suite -->
+    </test> <!-- TaskPage -->
+  </suite> <!-- GRID SAMPLE TEST -->
 </testng-results>

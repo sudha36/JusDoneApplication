@@ -3,13 +3,19 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.jusdone.qa.testcases.RegistrationPageTest">
+      <class name="com.jusdone.qa.testcases.LandingPageTest">
         <methods>
-          <include name="VerifyValidInputs" invocation-numbers="0"/>
+          <include name="AboutusLogoTest"/>
+          <include name="Landingpagetitletest"/>
+          <include name="SignUpLogoTest"/>
+          <include name="Clickbtn1Test"/>
+          <include name="LoginLogoTest"/>
+          <include name="teardown"/>
           <include name="setup"/>
-          <include name="tearDown"/>
+          <include name="ClickbtnTest"/>
+          <include name="ContactusLogoTest"/>
         </methods>
-      </class> <!-- com.jusdone.qa.testcases.RegistrationPageTest -->
+      </class> <!-- com.jusdone.qa.testcases.LandingPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
